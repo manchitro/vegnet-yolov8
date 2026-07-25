@@ -101,7 +101,7 @@ The final configuration above wasn't a first guess — four separate design ques
 
 ## How to Run
 
-> The dataset paths below (`vegnet_yolo.yaml`, `vegnet_training.py`) are currently hardcoded to a Google Colab / Google Drive layout (`/content/...`, `/content/drive/MyDrive/...`). This works if you're running in Colab with the dataset mounted at that path; for local use you'd need to edit `vegnet_yolo.yaml`'s `path:` field and `vegnet_training.py`'s output path first. Flagging this as a portability gap rather than fixing it silently — confirm before changing paths that existing results were generated against.
+> The dataset paths in `vegnet_yolo.yaml` and `vegnet_training.py` are hardcoded to a Google Colab / Google Drive layout (`/content/...`, `/content/drive/MyDrive/...`). For local use, edit `vegnet_yolo.yaml`'s `path:` field and `vegnet_training.py`'s output path first.
 
 ```python
 from vegnet_training import vegnet_training
