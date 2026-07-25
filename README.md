@@ -131,4 +131,4 @@ Dataset config (`vegnet_yolo.yaml`) expects three classes — Downey Mildew, Bla
 
 ## License
 
-Inherited from upstream `ultralytics/ultralytics`: AGPL-3.0 (Enterprise licensing also available from Ultralytics for closed-source use). Not something to change without understanding the implications — flagging as-is rather than silently altering it.
+**AGPL-3.0**, inherited from upstream [`ultralytics/ultralytics`](https://github.com/ultralytics/ultralytics). This repo builds substantially on Ultralytics' AGPL-3.0-licensed codebase, so AGPL-3.0 applies to the combined work — a copyleft requirement, not a choice made for this project specifically. Ultralytics also offers a separate Enterprise license for closed-source commercial use; see [ultralytics.com/license](https://www.ultralytics.com/license) for details.
